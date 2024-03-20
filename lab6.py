@@ -1,7 +1,9 @@
+# Name: Caleb Popescu
+
 def encode_password(password):
     encoded_password = ""
     for digit in password:
-        shifted_digit = str((int(digit) + 3) % 10)  # shift each digit up by 3 numbers
+        shifted_digit = str((int(digit) + 3) % 10)  # shift each digit up 3 numbers
         encoded_password += shifted_digit
     return encoded_password
 
